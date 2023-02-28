@@ -1,0 +1,107 @@
+.medisys {
+	width: 100%;
+	height: 100%;
+	background-image:
+    url(../images/dochtor.svg),
+    url(../images/floor.svg),
+    url(../images/vlavoh.svg),
+    url(../images/logoh.svg),
+    url(../images/vpravod.svg);
+    background-size: 16%, 32%, 40%, 10%, 40%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 40% 5%, 38% 13%, 0 0, 93% 80%, right bottom;
+    background-attachment: fixed, fixed, fixed, fixed;
+}
+
+#login {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	align-content: center;
+	overflow: auto;
+}
+
+#login .inner {
+	width: 640px;
+    position: fixed;
+    left: 40%;
+    top: 60%;
+	text-align: center;
+	background-color: #ffffff;
+	align: center;
+	transform: translate(-30%, -30%);
+    -ms-transform: translate(-30%, -30%); /* for IE 9 */
+    -webkit-transform: translate(-35%, -25%); /* for Safari */
+}
+
+#login .inner .fheader {
+  padding: 18px 26px 14px 26px;
+  color: #FF4D00;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  line-height: 19px;
+}
+
+#login .inner .cssform p {
+	clear: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 1%;
+}
+
+#login .inner .uname {
+  box-sizing: border-box;
+  height: 34px;
+  width: 440px;
+  border: 1px solid #3CB08D;
+  background-color: #FFFFFF; 
+  text-align: center;
+  align: center;
+}
+
+#login .inner .psw {
+  box-sizing: border-box;
+  height: 34px;
+  width: 440px;
+  border: 1px solid #3CB08D;
+  background-color: #FFFFFF; 
+  text-align: center;
+  align: center;  
+}
+
+#login .inner .chklabel {
+  color: #247059;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.posli {
+  height: 40px;
+  width: 250px;
+  color: #ffffff;
+  background-color: #ff4d00; 
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  border-radius:18px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fc9f78;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fc9f78;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fc9f78;
+}

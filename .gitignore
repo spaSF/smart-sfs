@@ -1,0 +1,24 @@
+# Default ignored files
+/smart-sfs.iws
+
+# Project exclude paths
+/out/
+/target/classes/
+/target/test-classes/
+/target/work/gspcompile/
+/target/work/plugin-build-classes/
+/target/work/plugin-classes/
+/target/work/resources/
+/target/work/scriptCache/
+/target/work/stubs/
+/target/work/tomcat/
+
+# Datasource local storage ignored files
+/.ideaDataSources/
+# Default ignored files
+/.shelf/
+/.idea/
+/web-app/isomorphic/
+/target/
+/.slcache/
+/tmp/
